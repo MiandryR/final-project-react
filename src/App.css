@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -8,31 +10,113 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .App-logoperso {
+    width: 350px;
+    align-self: baseline;
+    margin-block-end: auto;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Amatic SC";
+  font-size: 30px;
+  color: lightpink;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+App.container {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p#footer a {
+  color: lightpink;
+}
+
+ul {
+  list-style-type: none;
+  color: lightpink;
+}
+.temperature {
+  font-size: 100px;
+  color: #c7ffd8;
+  text-shadow: -1px -1px 2px crimson, 1px 1px 2px lightpink;
+}
+
+#city-input {
+  border-width: 0px;
+  border-radius: 35px;
+  border: 2px solid #c7ffd8;
+  height: 75px;
+  width: 350px;
+  margin: 25px 5px 25px;
+  padding-left: 35px;
+  font-family: "Amatic SC", cursive;
+  font-size: 33px;
+  color: gray;
+  letter-spacing: 10px;
+}
+
+#city-name {
+  color: #c7ffd8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1#city-name {
+  color: #c7ffd8;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px #8bb9a4;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+#button {
+  padding: 7px;
+  width: 79px;
+  height: 79px;
+  margin: 15px auto;
+  padding: 15px 15px;
+  border: 2px solid #c7ffd8;
+  border-radius: 40px;
+  background-image: linear-gradient(
+    to bottom right,
+    #ffffff 15%,
+    #c7ffd8 51%,
+    #c7ffd8 100%
+  );
+  box-shadow: 2px 3px 2px rgba(128, 128, 128, 0.295);
+  font-size: 30px;
+}
+
+#button:hover {
+  border-radius: 40px;
+  background-image: linear-gradient(
+    to right,
+    #c7ffd8 0%,
+    #c7ffd8 51%,
+    #ffffff 100%
+  );
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+#footer {
+  color: gray;
+  font-size: 8px;
+}
+
+#deco {
+  font-size: 15px;
 }
