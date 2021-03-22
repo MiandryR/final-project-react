@@ -1,5 +1,3 @@
-import react from "react";
-
 export default function Footer() {
     return (
         <p id="footer">
@@ -20,7 +18,8 @@ export default function Footer() {
         target="_blank"
         rel="noopener noreferrer"
         >
-GitHub        </a>
+                GitHub
+        </a>
         </p>
         
     );

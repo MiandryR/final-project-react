@@ -1,8 +1,6 @@
 import logospring from "./logospring.png";
-import Search from "./Search";
+import WeatherSearch from "./WeatherSearch";
 import Footer from "./Footer";
-import DateTime from "./DateTime";
-
 
 import './App.css';
 
@@ -10,12 +8,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logospring} className="App-logoperso" alt="logoperso" />
-        <DateTime/>
+        <img src={logospring} className="App-logospring" alt="logospring" />
+      <h1 id="question">
+          For which city would you like to get the weather?
+      </h1>
       </header>
-      <Search />
+      
+      <WeatherSearch defaultCity="Paris"/>
       <div className="container">
-            <Footer />
+      <Footer />
       </div>
     </div>
   );

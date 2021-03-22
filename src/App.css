@@ -10,7 +10,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logoperso {
+  .App-logospring {
     width: 350px;
     align-self: baseline;
     margin-block-end: auto;
@@ -69,13 +69,14 @@ ul {
   margin-bottom: 20px;
 }
 
-h1#city-name {
+h1#question {
   color: #c7ffd8;
   background: #666666;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
   text-shadow: 0px 3px 3px #8bb9a4;
+  font-size: 50px;
 }
 
 .row {
@@ -113,10 +114,20 @@ h1#city-name {
 }
 
 #footer {
+  margin-top: 60px;
   color: gray;
   font-size: 8px;
 }
 
 #deco {
   font-size: 15px;
+}
+
+span#hours-forecast {
+  margin-right: 15px;
+  font-family: "Amatic SC", cursive;
+}
+
+ul.info-list {
+  padding-left: 0px;
 }
