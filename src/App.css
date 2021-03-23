@@ -137,6 +137,7 @@ div.forecastDisplay {
 
 div.forecast.col {
   display: flex;
+  color: gray;
 }
 
 .forecastTitle {
@@ -147,4 +148,17 @@ div.forecast.col {
 
 div.forecastTitle {
   margin-top: 30px;
+  color: crimson;
+}
+
+a#toC,
+a#toF {
+  color: crimson;
+  font-style: bold;
+  text-decoration: none;
+}
+
+li.description {
+  text-transform: capitalize;
+  font-style: italic;
 }

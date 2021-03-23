@@ -13,7 +13,6 @@ function App() {
           For which city would you like to get the weather?
       </h1>
       </header>
-      
       <WeatherSearch defaultCity="Paris"/>
       <div className="container">
       <Footer />
