@@ -45,7 +45,7 @@ ul {
 }
 .temperature {
   font-size: 80px;
-  color: #c7ffd8;
+  color: crimson;
   text-shadow: -1px -1px 2px crimson, 1px 1px 2px lightpink;
 }
 
@@ -79,8 +79,18 @@ h1#question {
   font-size: 50px;
 }
 
+h2 {
+  color: pink;
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 10px;
+}
 .row {
   margin: 0 auto;
+}
+
+h4 {
+  color: #c7ffd8;
 }
 
 #button {
@@ -144,6 +154,8 @@ div.forecast.col {
   padding-left: 35px;
   text-align: left;
   text-decoration: overline;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
 }
 
 div.forecastTitle {
@@ -151,14 +163,23 @@ div.forecastTitle {
   color: crimson;
 }
 
-a#toC,
-a#toF {
+#toC,
+#toF {
   color: crimson;
-  font-style: bold;
-  text-decoration: none;
+  font-weight: bold;
 }
 
 li.description {
   text-transform: capitalize;
   font-style: italic;
+}
+
+div.WeatherTemperature a {
+  text-decoration: none;
+  color: pink;
+}
+
+h5,
+hr {
+  color: crimson;
 }

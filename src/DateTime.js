@@ -46,10 +46,10 @@ export default function DateTime(props) {
 
 return (
 <h4>
-    {year}
+  {year}   
 <span id="deco">🌷</span>  
- {day}, {month} {date}
+    {day}, {month} {date}   
 <span id="deco">🌷</span>  
- {hour}:{minutes}</h4>
+    {hour}:{minutes}</h4>
   );
 }

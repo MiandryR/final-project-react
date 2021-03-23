@@ -20,10 +20,10 @@ export default function Conversion(props) {
     return (
       <div className="WeatherTemperature">
         <span className="temperature">{Math.round(props.celsius)}</span>
-        <span className="unit">
-          °C |{" "}
-          <a id="toF" href="/" onClick={showFahrenheit}>
-            °F
+        <span className="unit" id="toC">
+          °C {" "}
+          <a href="/" onClick={showFahrenheit}>
+           | °F
           </a>
         </span>
       </div>
@@ -32,11 +32,11 @@ export default function Conversion(props) {
     return (
       <div className="WeatherTemperature">
         <span className="temperature">{Math.round(fahrenheit())}</span>
-        <span className="unit">
-          <a id="toC" href="/" onClick={showCelsius}>
-            °C
+        <span className="unit" id="toF">
+          <a href="/" onClick={showCelsius}>
+            °C |
           </a>{" "}
-          | °F
+           °F
         </span>
       </div>
     );
