@@ -5,7 +5,9 @@ import DateTime from "./DateTime";
 export default function WeatherInfo(props) {
   return(
     < ul className="info-list">
-      <DateTime date={props.data.date}/>
+      <DateTime date={props.data.date} />
+      <hr/>
+      <h2>{props.data.icon}</h2>
       <li className="temperature">{Math.round(props.data.temperature)}°C</li>
       <Icon code={props.data.icon} />
       < li className="description" > {props.data.description}</li >
